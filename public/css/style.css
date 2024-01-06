@@ -1,0 +1,205 @@
+body{
+    background: #000;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+overflow-x: hidden;
+font-family: Tajawal, sans-serif;
+}
+
+.client{
+    padding-top: 80px;
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tajawal, sans-serif;
+    color: white;
+}
+.navbar {
+    background-color: #000;
+    background-image: linear-gradient(to left, #000000, rgba(240, 135, 255, 0.30));
+    /* max-width: 100%; */
+    overflow-x: hidden;
+}
+.nav-link{
+    color: #fff !important;
+}
+
+.hero {
+    background-color: #000;
+    background-image: linear-gradient(to left, #000000, rgba(240, 135, 255, 0.30));
+    max-width: 100% !important;
+    overflow-x: hidden;
+    vertical-align: center;
+    
+
+}
+.hero-text {
+    
+    margin-top: 25%;
+    font-family: Tajawal, sans-serif;
+}
+.hero h1 {
+    margin: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hero p {
+    margin: 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+.order-button {
+    border-radius: 24px;
+border: 1px solid #000;
+background: #14F195;
+}
+
+.nav-link {
+    font-family: Tajawal, sans-serif;
+}
+
+.about {
+    margin-top: 75px;
+    background-size: cover;
+    background-image: url('/img/about-bg.png');
+    /* height: 300px; */
+    padding: 50px;
+    color: white;
+    font-family: Tajawal, sans-serif;
+}
+
+.services {
+    margin-top: 100px;
+    
+}
+
+.services p {
+    font-size: medium;
+    
+}
+
+.our-services{
+    margin-top: 20px;
+    height: 400px;
+    width: 480px;
+    padding: 80px;
+    padding-top: 40%;
+    background-image: linear-gradient(to left, #000000, rgba(45, 42, 42, 0.3));
+}
+
+.web-dev{
+    padding-top: 100px;
+    margin: 20px;
+    height: 400px;
+    width: 321px;
+    background-image: url('/img/web-dev.png');
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-size:cover;
+
+}
+
+.mob-dev{
+    margin: 20px;
+    height: 400px;
+    width: 480px;
+    background-image: url('/img/mob-dev.png');
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-size: cover;
+}
+
+.pt{
+    margin: 20px;
+    height: 400px;
+    width: 480px;
+    background-image: url('/img/pt.png');
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-size: cover;
+}
+.pt p{
+    font-family: Tajawal, sans-serif;
+    font-size: medium;
+}
+
+.grc{
+    margin: 20px;
+    height: 400px;
+    width: 480px;
+    background-image: url('/img/grc.png');
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-size: cover;
+}
+.grc p{
+    font-family: Tajawal, sans-serif;
+    font-size: medium;
+}
+
+.scr{
+    margin: 20px;
+    height: 400px;
+    width: 480px;
+    background-image: url('/img/screview.png');
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-size: cover;
+}
+.scr p{
+    font-family: Tajawal, sans-serif;
+    font-size: medium;
+}
+
+.contact-input{
+    width: 300px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid;
+    margin: 10px;
+}
+
+.contact-message{
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid;
+    resize: none;
+}
+
+.contact{
+    margin-top: 75px;
+}
+
+.contact-button{
+    background: linear-gradient(99deg, #01A0FA 0%, black 100%); 
+    border-radius: 21.71px; 
+    overflow: hidden; 
+    border: 0.60px black solid; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 6.03px; 
+    width: 150px;
+    height: 40px;
+}
+
+.clients {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
